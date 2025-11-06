@@ -1,4 +1,4 @@
-import { MetricCards } from '@/components/dashboard/MetricCards';
+import { MetricCards } from '@/components/dashboard/MetricCard';
 import { MonitoringTable } from '@/components/dashboard/MonitoringTable';
 import { Website } from '@/types';
 

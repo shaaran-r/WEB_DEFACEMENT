@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Header } from '@/components/layout/Header';
-import { Sidebar } from '@/components/layout/Sidebar';
-import { AlertPanel } from '@/components/layout/AlertPanel';
-import { DashboardPage } from '@/pages/DashboardPage';
+import { Header } from '@/layout/Header';
+import { Sidebar } from '@/layout/Sidebar';
+import { AlertPanel } from '@/layout/AlertPanel';
+import { DashboardPage } from '@/pages/DashBoardPage';
 import { HashAnalysisPage } from '@/pages/HashAnalysisPage';
 import { DomComparisonPage } from '@/pages/DomComparisonPage';
-import { ScreenshotComparisonPage } from '@/pages/ScreenshotComparisonPage';
+import { ScreenshotComparisonPage } from '@/pages/ScreenShotComparisionpage';
 import { NlpAnalyzerPage } from '@/pages/NlpAnalyzerPage';
 import { PageType, Website, Alert } from '@/types';
 import { getWebsites, updateWebsiteScores, getAlerts, clearAlert } from '@/services/mockData';
